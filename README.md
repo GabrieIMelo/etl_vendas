@@ -26,7 +26,7 @@ Simulei os dados de vendas em um arquivo CSV contendo: ID do produto, data da ve
 Trabalhei na limpeza dos dados (tratamento de nulos, tipos, formatação), enriquecimento (cálculo de total da venda, ticket médio, KPIs por categoria, região e cliente), e análises exploratórias com Pandas. Gerei também gráficos com Matplotlib, como:
 
 <h3>Faturamento por mês</h3>
-![Image](https://github.com/user-attachments/assets/7df09eb2-93b6-452b-8f04-dc9f8a7f8370) 
+(https://github.com/user-attachments/assets/7df09eb2-93b6-452b-8f04-dc9f8a7f8370) 
 
 <h3>Produtos mais vendidos</h3>
 ![Image](https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8)
@@ -42,8 +42,7 @@ Trabalhei na limpeza dos dados (tratamento de nulos, tipos, formatação), enriq
 
 
 3. Load (Carga no Banco de Dados)
-
-Criei e populei tabelas no MySQL com os dados limpos e transformados, e escrevi consultas SQL para gerar relatórios, como:
+abri os arquivos no MySQL com os dados limpos e transformados, e escrevi consultas SQL para gerar relatórios, como:
 
     Total de vendas por mês
 
@@ -52,29 +51,16 @@ Criei e populei tabelas no MySQL com os dados limpos e transformados, e escrevi 
     Ticket médio por cliente
 
 ## Como Executar o Projeto
+ Clone o repositório:
 
-    Clone o repositório:
+    git clone https://github.com/GabrieIMelo/etl-vendas.git
+    cd etl-vendas
 
-git clone https://github.com/GabrieIMelo/etl-vendas.git
-cd etl-vendas
 
-    Instale as dependências:
+Instale as dependências:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-    Configure o banco de dados MySQL:
-
-    Crie um banco e ajuste as credenciais no arquivo .env ou diretamente no código.
-
-    Execute os scripts SQL para criar as tabelas (em sql/).
-
-    Execute os scripts ETL:
-
-python extract.py
-python transform.py
-python load.py
-
-    (Opcional) Rode o notebook analise_vendas.ipynb para explorar os dados e visualizar os gráficos.
 
 ## Estrutura do Repositório
 
