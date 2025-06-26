@@ -26,7 +26,7 @@ Simulei os dados de vendas em um arquivo CSV contendo: ID do produto, data da ve
 Trabalhei na limpeza dos dados (tratamento de nulos, tipos, formatação), enriquecimento (cálculo de total da venda, ticket médio, KPIs por categoria, região e cliente), e análises exploratórias com Pandas. Gerei também gráficos com Matplotlib, como:
 
 ## Faturamento por mês  
-![Faturamento por Mês](imagens/faturamento-mes.png)
+!(etl_vendas/imagens/faturamento-mes.png)
 
 ## Produtos mais vendidos  
 ![Produtos mais vendidos](imagens/top-10.png)
