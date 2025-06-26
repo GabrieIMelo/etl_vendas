@@ -25,20 +25,20 @@ Simulei os dados de vendas em um arquivo CSV contendo: ID do produto, data da ve
 
 Trabalhei na limpeza dos dados (tratamento de nulos, tipos, formatação), enriquecimento (cálculo de total da venda, ticket médio, KPIs por categoria, região e cliente), e análises exploratórias com Pandas. Gerei também gráficos com Matplotlib, como:
 
-<h3>Faturamento por mês</h3>
-<img width="853" alt="faturamento-mes" src="https://github.com/user-attachments/assets/0fa653b2-3a37-4b77-9794-e8329eb3a4cc">
+Faturamento por mês
+<img width="790" height="390" alt="faturamento-mes" src="https://github.com/user-attachments/assets/0fa653b2-3a37-4b77-9794-e8329eb3a4cc">
 
-<h3>Produtos mais vendidos</h3>
-<img width="853" alt="top-10" src="https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8">
+Produtos mais vendidos
+<img width="790" height="390" alt="top-10" src="https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8">
 
-<h3>Ticket médio por vendedor</h3>
-<img width="853" alt="ticket-medio" src="https://github.com/user-attachments/assets/27edb082-a25b-498e-9045-cfe94f9cbc9f">
+Ticket médio por vendedor
+<img width="790" height="390" alt="ticket-medio" src="https://github.com/user-attachments/assets/27edb082-a25b-498e-9045-cfe94f9cbc9f">
 
-<h3>Faturamento por categoria de produto</h3>
-<img width="853" alt="faturamento-categoria" src="https://github.com/user-attachments/assets/0da652b9-714d-4a43-a9cf-84a306bd4347">
+Faturamento por categoria de produto
+<img width="790" height="390" alt="faturamento-categoria" src="https://github.com/user-attachments/assets/0da652b9-714d-4a43-a9cf-84a306bd4347">
 
-<h3>Distribuição dos valores de venda</h3>
-<img width="853" alt="distribuicao" src="https://github.com/user-attachments/assets/03bf18c6-1d85-4ba6-9868-cc248ef54d97">
+Distribuição dos valores de venda
+<img width="790" height="390" alt="distribuicao" src="https://github.com/user-attachments/assets/03bf18c6-1d85-4ba6-9868-cc248ef54d97">
 
 3. Load (Carga no Banco de Dados)
 abri os arquivos no MySQL com os dados limpos e transformados, e escrevi consultas SQL para gerar relatórios, como:
@@ -76,21 +76,15 @@ Instale as dependências:
 
 ## Estrutura do Repositório
 
-etl-vendas/
-
-├── data/                # Dados de entrada e saída
-
-├── graficos/            # Para vizualisar os graficos (Matplotlib)
-
-├── scripts/             # Scripts Python (extract, transform, load)
-
-├── sql/                 # Scripts SQL para criação e consultas
-
-├── tabelas/             # Tabelas especificas de cada categoria de produto
-
-├── README.md
-
-├── requirements.txt
+    etl-vendas/
+    
+    ├── data/                # Dados de entrada e saída
+    ├── graficos/            # Para vizualisar os graficos (Matplotlib)
+    ├── scripts/             # Scripts Python (extract, transform, load)
+    ├── sql/                 # Scripts SQL para criação e consultas
+    ├── tabelas/             # Tabelas especificas de cada categoria de produto
+    ├── README.md
+    ├── requirements.txt
 
 ## Conclusão
 
