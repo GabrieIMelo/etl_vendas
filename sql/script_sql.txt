@@ -1,0 +1,16 @@
+USE etl_vendas
+-- Faturamento por dia do mês
+SELECT Sale_Date AS dia, SUM(Sales_Amount) AS faturamento
+FROM vendas_mes01
+GROUP BY Sale_Date;
+
+-- Produtos mais vendidos em janeiro
+SELECT Product_Category, SUM(Quantity_Sold) AS total_vendido
+FROM vendas_mes01
+GROUP BY Product_Category
+ORDER BY total_vendido DESC;
+
+-- Ticket médio por vendedor
+SELECT Sales_Rep AS Vendedor, AVG(Quantity_Sold) AS ticket_medio
+FROM vendas_mes01
+GROUP BY Sales_Rep;
