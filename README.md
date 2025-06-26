@@ -74,7 +74,18 @@ Instale as dependências:
 
     pip install -r requirements.txt
 
+Dentro do MySQL:
 
+    Importe uma nova base de dados (sales.csv)
+    
+Abra um novo script:
+
+    Dentro da aba do script cole esse script para obter a mesma tabela:
+        SELECT Sale_Date AS dia, SUM(Sales_Amount) AS faturamento
+        FROM vendas_mes01
+        GROUP BY Sale_Date;
+    assim como os outros acima.
+    
 ## Estrutura do Repositório
 
     etl-vendas/
