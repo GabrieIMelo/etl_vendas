@@ -26,20 +26,20 @@ Simulei os dados de vendas em um arquivo CSV contendo: ID do produto, data da ve
 Trabalhei na limpeza dos dados (tratamento de nulos, tipos, formatação), enriquecimento (cálculo de total da venda, ticket médio, KPIs por categoria, região e cliente), e análises exploratórias com Pandas. Gerei também gráficos com Matplotlib, como:
 
 <h3>Faturamento por mês</h3>
-https://github.com/user-attachments/assets/7df09eb2-93b6-452b-8f04-dc9f8a7f8370
+<img width="853" alt="faturamento-mes" src="https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8](https://github.com/user-attachments/assets/7df09eb2-93b6-452b-8f04-dc9f8a7f8370
+">
 
 <h3>Produtos mais vendidos</h3>
 <img width="853" alt="top-10" src="https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8">
 
 <h3>Ticket médio por vendedor</h3>
-![Image](https://github.com/user-attachments/assets/b8f9d5c9-4af3-42f3-b60e-f621da6356dd)
+<img width="853" alt="ticket-medio" src="https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8](https://github.com/user-attachments/assets/b8f9d5c9-4af3-42f3-b60e-f621da6356dd">
 
 <h3>Faturamento por categoria de produto</h3>
-![Image](https://github.com/user-attachments/assets/fc68155e-9bfe-49b3-9a1a-8d8aaef4b21f)
-
+<img width="853" alt="faturamento-categoria" src="https://github.com/user-attachments/assets/78336e54-b00f-441e-ae91-219d921128c8](https://github.com/user-attachments/assets/fc68155e-9bfe-49b3-9a1a-8d8aaef4b21f
+">
 <h3>Distribuição dos valores de venda</h3>
-![Image](https://github.com/user-attachments/assets/03bf18c6-1d85-4ba6-9868-cc248ef54d97)
-
+<img width="853" alt="distribuicao" src="https://github.com/user-attachments/assets/03bf18c6-1d85-4ba6-9868-cc248ef54d97">
 
 3. Load (Carga no Banco de Dados)
 abri os arquivos no MySQL com os dados limpos e transformados, e escrevi consultas SQL para gerar relatórios, como:
