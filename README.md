@@ -47,20 +47,20 @@ abri os arquivos no MySQL com os dados limpos e transformados, e escrevi consult
         SELECT Sale_Date AS dia, SUM(Sales_Amount) AS faturamento
         FROM vendas_mes01
         GROUP BY Sale_Date;
-        <img width="256" height="584" alt="Captura de tela de 2025-06-26 04-28-06" src="https://github.com/user-attachments/assets/d25b6f85-4d98-4f9a-b9ed-3d3f1e30f31b">
+   <img width="256" height="584" alt="Captura de tela de 2025-06-26 04-28-06" src="https://github.com/user-attachments/assets/d25b6f85-4d98-4f9a-b9ed-3d3f1e30f31b">
 
         Produtos mais vendidos em janeiro
         SELECT Product_Category, SUM(Quantity_Sold) AS total_vendido
         FROM vendas_mes01
         GROUP BY Product_Category
         ORDER BY total_vendido DESC;
-        <img width="344" height="107" alt="Captura de tela de 2025-06-26 04-29-12" src="https://github.com/user-attachments/assets/2a185431-ef9b-4384-a05e-a3f5ba58c6c2">
+   <img width="344" height="107" alt="Captura de tela de 2025-06-26 04-29-12" src="https://github.com/user-attachments/assets/2a185431-ef9b-4384-a05e-a3f5ba58c6c2">
 
-       Ticket médio por vendedor
+        Ticket médio por vendedor
         SELECT Sales_Rep AS Vendedor, AVG(Quantity_Sold) AS ticket_medio
         FROM vendas_mes01
         GROUP BY Sales_Rep;
-        <img width="294" height="127" alt="Captura de tela de 2025-06-26 04-29-53" src="https://github.com/user-attachments/assets/9f7020a2-96cc-4e95-8314-236b2cd804ac">
+   <img width="294" height="127" alt="Captura de tela de 2025-06-26 04-29-53" src="https://github.com/user-attachments/assets/9f7020a2-96cc-4e95-8314-236b2cd804ac">
 
 ## Como Executar o Projeto
  Clone o repositório:
