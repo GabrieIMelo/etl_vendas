@@ -25,20 +25,21 @@ Simulei os dados de vendas em um arquivo CSV contendo: ID do produto, data da ve
 
 Trabalhei na limpeza dos dados (tratamento de nulos, tipos, formatação), enriquecimento (cálculo de total da venda, ticket médio, KPIs por categoria, região e cliente), e análises exploratórias com Pandas. Gerei também gráficos com Matplotlib, como:
 
-## Faturamento por mês  
-!(etl_vendas/imagens/faturamento-mes.png)
+<h3>Faturamento por mês</h3>
+<img src="imagens/faturamento-mes.png" alt="Faturamento por Mês" style="pointer-events: none;" width="600"/>
 
-## Produtos mais vendidos  
-![Produtos mais vendidos](imagens/top-10.png)
+<h3>Produtos mais vendidos</h3>
+<img src="imagens/top-10.png" alt="Produtos mais vendidos" style="pointer-events: none;" width="600"/>
 
-## Ticket médio por vendedor  
-![Ticket médio por vendedor](imagens/ticket-medio.png)
+<h3>Ticket médio por vendedor</h3>
+<img src="imagens/ticket-medio.png" alt="Ticket médio por vendedor" style="pointer-events: none;" width="600"/>
 
-## Faturamento por categoria de produto  
-![Faturamento por categoria de produto](imagens/faturamento-categoria.png)
+<h3>Faturamento por categoria de produto</h3>
+<img src="imagens/faturamento-categoria.png" alt="Faturamento por categoria de produto" style="pointer-events: none;" width="600"/>
 
-## Distribuição dos valores de venda  
-![Distribuição dos valores de venda](imagens/distribuicao.png)
+<h3>Distribuição dos valores de venda</h3>
+<img src="imagens/distribuicao.png" alt="Distribuição dos valores de venda" style="pointer-events: none;" width="600"/>
+
 
 3. Load (Carga no Banco de Dados)
 
